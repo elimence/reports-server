@@ -10,7 +10,7 @@ import express from 'express'
 import bunyan from 'bunyan'
 
 import { createServer } from '../lib'
-const log = bunyan({ name: 'Blockchain Webclient - API' })
+const log = bunyan({ name: 'Report Server API' })
 
 const createApp = ({ pkg, isProduction }) => {
   const serverConfig = config.get('server')
